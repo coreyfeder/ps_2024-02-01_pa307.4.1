@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+#main_container {
+    padding: 4%;
+    max-width: 760px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#identity {
+    border: 1px solid yellow;
+    display: block;
+    width: 100%;
+}
+
+#identity > div {
+    display: inline;
+}
+
+#identity > :last-child {
+    display: block;
+}
+
+
+
+.divider {
+    /* hide from reader-assist */
+    display: block;
+}
+
+#experience, #skills {
+    border: 1px solid gray;
+    
+}
+
+#experience {
+    border: 1px solid blue;
+    display: inline;
+    flex-grow: 5;
+    flex-direction: column;
+}
+
+#skills {
+    border: 1px solid purple;
+    flex-grow: 2;
+}
+
+
+#experience > div {
+}
+
+#skills > div {
+}
+
