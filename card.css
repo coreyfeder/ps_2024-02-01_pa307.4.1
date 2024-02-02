@@ -1,0 +1,32 @@
+* {
+   box-sizing: border-box;
+}
+
+div {
+   border: 1px solid green;
+}
+
+.card-layout {
+   border: 1px solid blue;
+   /* width:auto; */
+   /* max-width: 900px; */
+   flex-wrap: wrap;
+   align-content: space-evenly;
+   justify-content: space-evenly;
+}
+
+.card-body {
+   display: flex;
+   border: 1px solid black;
+   width: 200px;
+}
+
+.img-container img {
+   border: 1px solid red;
+   max-width: 100%;
+   height: auto;
+}
+
+.card-body p, .card-body h1 {
+   margin: 8px;
+}
